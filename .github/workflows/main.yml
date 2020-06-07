@@ -37,4 +37,4 @@ jobs:
     - name: install Surge
       run: npm install --global surge
     - name: Deploy to Surge
-      run: surge ./mudassar-firstbasicreactapp.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./first_mudassar_basic_react_app.surge.sh --token ${{ secrets.SURGE_TOKEN }}
